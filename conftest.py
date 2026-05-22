@@ -1,7 +1,8 @@
 import pytest
 from praktikum.bun import Bun
 from praktikum.ingredient import Ingredient
-from praktikum.ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
+from praktikum.ingredient_types import (INGREDIENT_TYPE_SAUCE,
+                                        INGREDIENT_TYPE_FILLING)
 
 
 @pytest.fixture
